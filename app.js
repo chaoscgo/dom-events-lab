@@ -26,7 +26,7 @@ calculator.addEventListener('click', (event) => {
       
     if (event.target.classList.contains('operator')) {
        
-      if (event.target.innerText != 'C') {
+      if (event.target.innerText !== 'C') {
        
         buttonNumber.push(Number(userNumber));
         console.log(buttonNumber);
